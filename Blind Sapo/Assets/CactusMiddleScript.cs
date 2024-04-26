@@ -7,7 +7,6 @@ public class CactusMiddleScript : MonoBehaviour
 {
     public LogicScript logic;
     
-    // Start is called before the first frame update
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();

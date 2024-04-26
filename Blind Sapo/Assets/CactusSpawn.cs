@@ -9,13 +9,11 @@ public class CactusSpawn : MonoBehaviour
     private float timer = 0;
     public float heightOffset = 10;
 
-    // Start is called before the first frame update
     void Start()
     {
         spawnCactus();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (timer < spawnRate)
